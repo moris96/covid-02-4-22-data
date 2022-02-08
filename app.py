@@ -4,13 +4,7 @@ from dash import html
 import plotly.graph_objects as go
 import pandas as pd
 
-
-
 df = pd.read_csv('data sets/coviddata.csv')
-
-
-
-
 
 # plotly go map fig
 fig = go.Figure(go.Scattergeo(
@@ -40,10 +34,6 @@ tabtitle = 'COVID-19 Data'
 sourceurl = 'https://www.worldometers.info/coronavirus/'
 githublink = 'https://github.com/moris96/covid-02-4-22-data'
 image = 'corona.jpg'
-
-
-
-
 
 
 # dash app layout
