@@ -1,9 +1,9 @@
 import requests
 import json
 
-API_KEY = "{API key here}"
-PROJECT_TOKEN = "{project token here}"
-RUN_TOKEN = "{run token here}"
+API_KEY = "t-HAohTGXQpE"
+PROJECT_TOKEN = "tTawHSX-M46W"
+RUN_TOKEN = "t1vG-7L_UfbE"
 
 
 class Data:
